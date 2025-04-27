@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>BrandLogo</title>
+  </head>
+  <body>
+    <div class="top-nav w-100 bg-dark text-light">
+      <div
+        class="top-nav-wrapper d-flex justify-content-between align-items-center container p-1"
+      >
+        <div>
+          <span><i class="ri-map-pin-line"></i></span>
+          <span class="fw-bold">Shahar:Toshkent</span>
+        </div>
+        <p>Buyurtmalaringizni bepul yetkazib beramiz - atiga 1 kun ichida</p>
+        <select name="lang" id="">
+          <option value="en">Uzb</option>
+          <option value="en">Eng</option>
+          <option value="en">Rus</option>
+        </select>
+      </div>
+    </div>
+
+    <header class="mt-5">
+      <nav class="container d-flex justify-content-between align-items-center">
+        <h2 class="text-uppercase fw-bold">Brand Logo</h2>
+        <ul
+          class="d-flex justify-content-between align-items-center gap-5 list-unstyled"
+        >
+          <li>
+            <a class="text-decoration-none text-dark fw-bolder" href="#"
+              >Bosh Sahifa</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-decoration-none text-dark fw-bolder"
+              href="./katalog.html"
+              >Katalog</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-decoration-none text-dark fw-bolder"
+              href="./about.html"
+              >Haiqmizda</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-decoration-none text-dark fw-bolder"
+              href="./contact.html"
+              >Aloqa</a
+            >
+          </li>
+        </ul>
+
+        <div class="d-flex align-items-center justify-content-between gap-3">
+          <div
+            class="d-flex align-items-center justify-content-between position-relative"
+          >
+            <input
+              class="form-control d-block"
+              type="text"
+              placeholder="Qidirish"
+            />
+            <i class="ri-search-line position-absolute end-0"></i>
+          </div>
+          <button class="btn btn-primary">Aloqaga Chiqish</button>
+          <span>
+            <i class="ri-phone-line"></i>
+          </span>
+        </div>
+      </nav>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner border card-box">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <div class="p-4 text-start">
+                <h5 class="fw-bold fs-1">New Laptop</h5>
+                <p class="text-secondary">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <button class="btn btn-primary">Shop now</button>
+              </div>
+              <img src="../img/asus.png" class="img-fluid" alt="..." />
+            </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="d-flex justify-content-evenly align-items-center">
+              <div class="p-4 text-start">
+                <h5 class="fw-bold fs-1">New Laptop</h5>
+                <p class="text-secondary">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <button class="btn btn-primary">Shop now</button>
+              </div>
+              <img src="../img/original 1.png" class="img-fluid" alt="..." />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="container mt-5">
+        <h1 class="fw-bold fs-1">Kataloglar</h1>
+
+        <div
+          class="mt-5 d-flex align-items-center justify-content-evenly gap-3"
+        >
+          <div
+            class="border w-25 d-flex justify-content-center align-items-center border-primary flex-column p-3 fs-1 phone-box"
+          >
+            <span>
+              <i class="ri-smartphone-line"></i>
+            </span>
+            <p class="fs-4 text-uppercase fw-bolder">Phone</p>
+          </div>
+          <div
+            class="border w-25 d-flex justify-content-center align-items-center border-primary flex-column p-3 fs-1 phone-box"
+          >
+            <span>
+              <i class="ri-computer-line"></i>
+            </span>
+
+            <p class="fs-4 text-uppercase fw-bolder">Kompyuter</p>
+          </div>
+          <div
+            class="border w-25 d-flex justify-content-center align-items-center border-primary flex-column p-3 fs-1 phone-box"
+          >
+            <span>
+              <i class="ri-timer-flash-line"></i>
+            </span>
+            <p class="fs-4 text-uppercase fw-bolder">Soatlar</p>
+          </div>
+          <div
+            class="border w-25 d-flex justify-content-center align-items-center border-primary flex-column p-3 fs-1 phone-box"
+          >
+            <span>
+              <i class="ri-camera-line"></i>
+            </span>
+            <p class="fs-4 text-uppercase fw-bolder">Kameralar</p>
+          </div>
+          <div
+            class="border w-25 d-flex justify-content-center align-items-center border-primary flex-column p-3 fs-1 phone-box"
+          >
+            <span>
+              <i class="ri-customer-service-2-line"></i>
+            </span>
+            <p class="fs-4 text-uppercase fw-bolder">Noushniki</p>
+          </div>
+          <div
+            class="border w-25 d-flex justify-content-center align-items-center border-primary flex-column p-3 fs-1 phone-box"
+          >
+            <span>
+              <i class="ri-gamepad-line"></i>
+            </span>
+            <p class="fs-4 text-uppercase fw-bolder">Aksesuarlar</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="container mt-5">
+      <div class="mt-5 d-flex justify-content-between">
+        <h2 class="fw-bold fs-1 text-capitalize">Yangi Chegirmalar</h2>
+
+        <div class="date fs-5 fw-bold"></div>
+      </div>
+    </section>
+
+    <div
+      id="discountCarousel"
+      class="carousel slide mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner" id="discount">
+        <!-- Mahsulotlar yuklanadi -->
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#discountCarousel"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bg-dark rounded-circle p-2"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Oldingi</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#discountCarousel"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bg-dark rounded-circle p-2"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Keyingi</span>
+      </button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <button class="btn btn-primary d-block m-auto mt-5">
+      <a
+        class="text-light text-decoration-none fw-bold"
+        href="../pages/product.html"
+        >Barchasini ko’rish</a
+      >
+    </button>
+
+    <section class="container mt-5">
+      <br /><br />
+      <br /><br />
+      <br /><br />
+
+      <h1 class="fs-1 fw-bold">Yangi mahsulotlar</h1>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div
+              class="card bg-dark text-white shadow-lg rounded-4 overflow-hidden h-100"
+            >
+              <img
+                src="../img/ps5-bck.png"
+                class="card-img h-100 object-fit-cover"
+                alt="PlayStation 5"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-4"
+              >
+                <h2 class="fw-bold">PlayStation 5</h2>
+                <p class="fw-semibold">
+                  Black and White version of the PS5 coming out on sale.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-light fw-bold mt-2"
+                  style="width: fit-content"
+                  >Shop Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div
+              class="card bg-dark text-white shadow-lg rounded-4 overflow-hidden mb-4"
+            >
+              <img
+                src="../img/jenshina.png"
+                class="card-img h-100 object-fit-cover"
+                alt="Women's Collections"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-4"
+              >
+                <h2 class="fw-bold">Women’s Collections</h2>
+                <p>Featured woman collections that give you another vibe.</p>
+                <a
+                  href="#"
+                  class="btn btn-light fw-bold mt-2"
+                  style="width: fit-content"
+                  >Shop Now</a
+                >
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div
+                  class="card bg-dark text-white shadow-lg rounded-4 overflow-hidden h-100"
+                >
+                  <img
+                    src="../img/speaker-bck.png"
+                    class="card-img h-100 object-fit-cover"
+                    alt="Speakers"
+                  />
+                  <div
+                    class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                  >
+                    <h4 class="fw-bold">Speakers</h4>
+                    <p>Amazon wireless speakers</p>
+                    <a
+                      href="#"
+                      class="btn btn-light fw-bold mt-2"
+                      style="width: fit-content"
+                      >Shop Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-4">
+                <div
+                  class="card bg-dark text-white shadow-lg rounded-4 overflow-hidden h-100"
+                >
+                  <img
+                    src="../img/parfuim-bck.png"
+                    class="card-img h-100 object-fit-cover"
+                    alt="Perfume"
+                  />
+                  <div
+                    class="card-img-overlay d-flex flex-column justify-content-end p-3"
+                  >
+                    <h4 class="fw-bold">Perfume</h4>
+                    <p>GUCCI INTENSE OUD EDP</p>
+                    <a
+                      href="#"
+                      class="btn btn-light fw-bold mt-2"
+                      style="width: fit-content"
+                      >Shop Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="btn-box container mt-5 d-flex align-items-center justify-content-center"
+    ></div>
+
+    <div class="adds container mt-5 d-flex gap-4 justify-content-center">
+      <div
+        class="ad-box rounded-4 p-4 text-center w-100 w-sm-75 w-md-50 w-lg-25"
+      >
+        <img
+          src="../img/headphones.png"
+          class="mb-4"
+          style="width: 60px"
+          alt="headphones"
+        />
+        <h3 class="fs-5 fw-bold">BEPUL VA TEZ YETKAZIB BERISH</h3>
+        <p class="fw-semibold text-secondary mt-2 mb-0">
+          Buyurtmalar uchun bepul yetkazib berish
+        </p>
+      </div>
+
+      <div
+        class="ad-box rounded-4 p-4 text-center w-100 w-sm-75 w-md-50 w-lg-25"
+      >
+        <img
+          src="../img/Services.png"
+          class="mb-4"
+          style="width: 60px"
+          alt="service"
+        />
+        <h3 class="fs-5 fw-bold">24/7 MIJOZLARGA XIZMAT KO'RSATISH</h3>
+        <p class="fw-semibold text-secondary mt-2 mb-0">
+          Do'stona 24/7 mijozlarni qo'llab-quvvatlash
+        </p>
+      </div>
+
+      <div
+        class="ad-box rounded-4 p-4 text-center w-100 w-sm-75 w-md-50 w-lg-25"
+      >
+        <img
+          src="../img/galochka.png"
+          class="mb-4"
+          style="width: 60px"
+          alt="guarantee"
+        />
+        <h3 class="fs-5 fw-bold">PULNI QAYTARIB BERISH KAFOLATI</h3>
+        <p class="fw-semibold text-secondary mt-2 mb-0">
+          Biz pulni 30 kun ichida qaytaramiz
+        </p>
+      </div>
+    </div>
+
+    <footer class="container-fluid bg-black text-light">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <h1 class="fw-bold">BrandLogo</h1>
+            <p class="fw-semibold">Biz ijtimoiy tarmoqlarda</p>
+            <img
+              src="../img/socials.png"
+              alt="Socials"
+              class="img-fluid mt-2"
+              style="max-width: 150px"
+            />
+          </div>
+
+          <div class="col">
+            <h4 class="fw-bold mb-3">Aloqa</h4>
+            <p class="mb-1 mt-3 fw-bolder">Manzil: Toshkent sh</p>
+            <p class="mb-1 mt-3 fw-bolder">qwertyui@gmail.com</p>
+            <p class="mb-1 mt-3 fw-bolder">+998 91 777 77 77</p>
+          </div>
+
+          <div class="col">
+            <h4 class="fw-bold mb-3">Haqimizda</h4>
+            <p class="mb-2">
+              Maxfiylik Siyosati va Shaxsiy Ma'lumotlarni Himoya Qilish
+            </p>
+            <p class="mb-2">Mahsulotlarni va to’lovlarni qaytarish siyosati</p>
+          </div>
+
+          <div class="col">
+            <h4 class="fw-bold mb-3">Savol berish</h4>
+            <form>
+              <div class="mb-2">
+                <input
+                  type="text"
+                  class="form-control bg-secondary text-light border-0"
+                  placeholder="Ismingiz *"
+                  required
+                />
+              </div>
+              <div class="mb-2">
+                <input
+                  type="tel"
+                  class="form-control bg-secondary text-light border-0"
+                  placeholder="Telefon raqam *"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control bg-secondary text-light border-0"
+                  placeholder="Savol berish..."
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Yuborish
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script src="../untils/script.js"></script>
+  </body>
+</html>

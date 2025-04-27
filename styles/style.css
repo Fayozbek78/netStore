@@ -1,0 +1,28 @@
+.card-box {
+  background-image: url(../img/bgk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.phone-box:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #00a3ff;
+  color: white;
+}
+
+#ps-5BCk {
+  background-image: url("../img/ps5-bck.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#speaker-BCk {
+  background-image: url("../img/speaker-bck.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parfuim-BCk {
+  background-image: url("../img/parfuim-bck.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
