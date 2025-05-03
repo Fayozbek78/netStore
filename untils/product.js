@@ -46,14 +46,21 @@ function showDate(data) {
           <div class="mt-3">
             <p class="fs-5 fw-bold text-dark mb-1">${item.price}$</p>
             <p class="text-muted text-decoration-line-through mb-2">$160</p>
-            <button class="btn btn-primary w-100 rounded-pill">Buyurtma berish</button>
+            <button onclick ="getSinglePro(${
+              item.id
+            }) class="btn btn-primary w-100 rounded-pill"> <a href="../pages/productitems.html"> Buyurtma berish</a> </button>
           </div>
         </div>
       </div>
     </div>
-  
         `;
       })
       .join("");
   }
+}
+
+function getSinglePro(id) {
+  console.log(id);
+  localStorage.setItem("productId", id);
+  window.location.href = "../pages/productitems.html";
 }
